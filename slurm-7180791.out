@@ -1,0 +1,98 @@
+Module for GCC (version 9.2.0) loaded.
+Module for OpenMPI (version 2.1.6) loaded.
+Module for fftw3 (Version 3.3.8) loaded.
+Module for nfft (Version 3.5.1) loaded.
+Module for Anaconda 2019.10 (Python 3.7.4) loaded.
+Module for hdf5 (Version 1.10.5) loaded.
+ed_dmft_parallel_frequencies.f:1579:18:
+
+ 1579 |    6  h(ij) = 0.d0
+      |                  1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 6 at (1)
+ed_dmft_parallel_frequencies.f:1580:18:
+
+ 1580 |    5  h(ij) = 1.d0
+      |                  1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 5 at (1)
+ed_dmft_parallel_frequencies.f:1589:20:
+
+ 1589 |       do 11 j = i, n
+      |                    1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 11 at (1)
+ed_dmft_parallel_frequencies.f:1608:22:
+
+ 1608 |   16  ij = ij + np - i
+      |                      1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 16 at (1)
+ed_dmft_parallel_frequencies.f:1624:34:
+
+ 1624 |       if (idiff - 1) 100, 100, 110
+      |                                  1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+ed_dmft_parallel_frequencies.f:1639:14:
+
+ 1639 |   22  w(i) = z
+      |              1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 22 at (1)
+ed_dmft_parallel_frequencies.f:1649:36:
+
+ 1649 |   25  w(is+n-i) = w(n-i) / h(ij) - z
+      |                                    1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 25 at (1)
+ed_dmft_parallel_frequencies.f:1682:29:
+
+ 1682 |       if (int - 1) 35, 49, 50
+      |                             1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+ed_dmft_parallel_frequencies.f:1731:34:
+
+ 1731 |       if (idiff - 1) 100, 100, 110
+      |                                  1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+ed_dmft_parallel_frequencies.f:1793:21:
+
+ 1793 |       do 80 j = i1, n
+      |                     1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 80 at (1)
+ed_dmft_parallel_frequencies.f:3028:20:
+
+ 3028 |             do iz=1,Lz/2-1
+      |                    1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+ed_dmft_parallel_frequencies.f:3025:17:
+
+ 3025 |          do iy=1,Ly/2-1
+      |                 1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+ed_dmft_parallel_frequencies.f:3021:14:
+
+ 3021 |       do ix=1,Lx/2-1
+      |              1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+ed_dmft_parallel_frequencies.f:3060:20:
+
+ 3060 |             do iz=1,Lz/2-1
+      |                    1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+ed_dmft_parallel_frequencies.f:3057:17:
+
+ 3057 |          do iy=1,Ly/2-1
+      |                 1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+ed_dmft_parallel_frequencies.f:3091:20:
+
+ 3091 |             do iz=1,Lz/2-1
+      |                    1
+Warning: Deleted feature: End expression in DO loop at (1) must be integer
+/bin/ld: warning: libgfortran.so.3, needed by /lib/../lib64/liblapack.so, may conflict with libgfortran.so.5
+[bcn2170:115478] 37 more processes have sent help message help-opal-shmem-mmap.txt / mmap on nfs
+[bcn2170:115478] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bcn2170:115478] 1 more process has sent help message help-mpi-errors.txt / mpi_errors_are_fatal
+============ Job Information ===================================================
+Submitted: 2023-06-12T18:07:18
+Started: 2023-06-12T19:55:44
+Ended: 2023-06-12T19:55:56
+Elapsed: 1 min, Limit: 240 min, Difference: 239 min
+(HT-)CPUs: 192, Nodes: 1
+Estimated core-h: .3168
+================================================================================

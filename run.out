@@ -1,0 +1,95 @@
+--------------------------------------------------------------------------
+WARNING: Open MPI will create a shared memory backing file in a
+directory that appears to be mounted on a network filesystem.
+Creating the shared memory backup file on a network file system, such
+as NFS or Lustre is not recommended -- it may cause excessive network
+traffic to your file servers and/or cause shared memory traffic in
+Open MPI to be much slower than expected.
+
+You may want to check what the typical temporary directory is on your
+node.  Possible sources of the location of this temporary directory
+include the $TEMPDIR, $TEMP, and $TMP environment variables.
+
+Note, too, that system administrators can set a list of filesystems
+where Open MPI is disallowed from creating temporary files by setting
+the MCA parameter "orte_no_session_dir".
+
+  Local host: bcn1781
+  Filename:   /scratch/tmp/hhpnhytt/openmpi-sessions-31720@bcn1781_0/25720/1/12/vader_segment.bcn1781.12
+
+You can set the MCA paramter shmem_mmap_enable_nfs_warning to 0 to
+disable this message.
+--------------------------------------------------------------------------
+ 2D-simple cubic lattice
+ # of sites      =     7
+
+ number of conduction bath levels =           6
+ number of iterations :         250
+ nmax        1225 nmaxx        1225
+ U  =    1.5000000000000000     
+ mu =    1.0000000000000000     
+ h =    0.0000000000000000     
+ beta =   30.000000000000000     
+ Iwmax =       32768
+ for real frequencies:   -12.000000000000000        12.000000000000000     
+ Working at fixed mu =   1.0000000000000000     
+ Initial mu =   1.0000000000000000     
+ Start compute matrix.
+ End compute matrix.
+ # of independent blocks:          64
+ ------------------------------------------------
+ starting Anderson parameters 
+ ------------------------------------------------
+ Eps(k) 
+         0.5000000000000000
+         1.0000000000000000
+         1.5000000000000000
+        -0.5000000000000000
+        -1.0000000000000000
+        -1.5000000000000000
+ V(k) 
+         0.2000000000000000
+         0.2000000000000000
+         0.2000000000000000
+         0.2000000000000000
+         0.2000000000000000
+         0.2000000000000000
+         1.0000000000000000   #chemical potential
+ ------------------------------------------------
+    Iteration :            1
+ ------------------------------------------------
+ Threshold for n=   1.0000000000000000E-004
+  -7.1550587078795163     
+ Green-Function started
+ Green-Function finished
+ densimp =    1.0317948126972072     
+ SELF_CONSISTENCY LOOP
+ for the 2D-cubic
+ minimization
+ iexit fmin     1  0.387405E-06
+ ------------------------------------------------
+ new Anderson parameters 
+ ------------------------------------------------
+ Eps(k) 
+         0.2920231264759838
+         1.0013055472248300
+         1.5029706562959899
+        -0.4382831136248558
+        -0.9936145229187305
+        -1.4995177635427486
+ V(k) 
+         0.2468147789829780
+         0.1398610136416472
+         0.1703858995645552
+         0.2394127761710295
+         0.1595269873190916
+         0.1512588825628458
+         1.0000000000000000   #chemical potential
+ ------------------------------------------------
+ convergence parameter :  0.4947277873E-02
+ ------------------------------------------------
+    Iteration :            2
+ ------------------------------------------------
+ Threshold for n=   1.0000000000000000E-004
+  -7.0365272798557514     
+ Green-Function started
